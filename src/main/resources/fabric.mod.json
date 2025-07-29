@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/project/autolandingwater",
-		"sources": "https://github.com/mawuyan11/AutoLandingWater/tree/master"
+		"sources": "https://github.com/mawuyan11/AutoLandingWater"
 	},
 	"license": "MIT",
 	"icon": "assets/auto-landing-water/icon.png",
