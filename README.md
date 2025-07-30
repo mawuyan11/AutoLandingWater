@@ -1,1 +1,4 @@
+### 功能
 只要玩家手里有水桶，从三格高以上的地方落下就可以自动落地水，保证玩家不死
+### 许可
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
