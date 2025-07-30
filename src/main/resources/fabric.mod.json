@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/project/autolandingwater",
 		"sources": "https://github.com/mawuyan11/AutoLandingWater"
 	},
-	"license": "MIT",
+	"license": "MIT License",
 	"icon": "assets/auto-landing-water/icon.png",
 	"environment": "*",
 	"entrypoints": {
