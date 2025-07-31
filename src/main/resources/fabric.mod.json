@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "autolandingwater",
+	"version": "${version}",
+	"name": "自动落地水",
+	"description": "只要玩家手里有水桶，从三格高以上的地方落下就可以自动落地水，保证玩家不死",
+	"authors": [
+		"ma无言"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/autolandingwater",
+		"sources": "https://github.com/mawuyan11/AutoLandingWater"
+	},
+	"license": "MIT License",
+	"icon": "assets/autolandingwater/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ma_wuyan.autolandingwater.AutoLandingWater"
+		],
+		"fabric-datagen": [
+			"com.ma_wuyan.autolandingwater.AutoLandingWaterDataGenerator"
+		],
+		"Client": [
+			"com.ma_wuyan.autolandingwater.AutoLandingWaterClient"
+		]
+	},
+	"mixins": [
+		"autolandingwater.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
