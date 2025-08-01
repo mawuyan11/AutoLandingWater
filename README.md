@@ -1,4 +1,9 @@
-# 功能
+## 中文 | [English](./README_en_us.md)
+## 功能
 只要玩家手里有水桶，从三格高以上的地方落下就可以自动落地水，保证玩家不死
-# 许可
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+无需额外按键，模组自动检测并触发 
+
+常用于高空建筑、峡谷探索等易坠落场景
+## 许可
+本项目基于 MIT 许可证授权 - 详情请参阅 [LICENSE](LICENSE) 文件
