@@ -57,7 +57,7 @@ public abstract class PlayerEntityMixin extends LivingEntity {
             int distanceToGround = calculateDistanceToGround(feetPos);
 
             // 只在接近地面时放置水（距离地面1-3格）
-            if (hasWaterBucket && distanceToGround >= 1 && distanceToGround <= 3) {
+            if (hasWaterBucket && distanceToGround >= 1 && distanceToGround <= 1.5) {
                 // 在脚下位置放置水
                 BlockPos waterPos = feetPos.down();
 
