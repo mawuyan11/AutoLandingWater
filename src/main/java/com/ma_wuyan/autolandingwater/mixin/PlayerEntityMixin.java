@@ -63,7 +63,7 @@ public abstract class PlayerEntityMixin extends LivingEntity {
                 if (getWorld().getBlockState(waterPos).isAir()) {
                     getWorld().setBlockState(waterPos, net.minecraft.block.Blocks.WATER.getDefaultState());
                     lastWaterPos = waterPos;
-                    cooldown = 5; // 设置冷却防止连续放置
+                    cooldown = 2; // 设置冷却防止连续放置
                     AutoLandingWater.LOGGER.debug("Placed water at {} (distance to ground: {})", waterPos, distanceToGround);
 
                     // 移除水桶并添加空桶
