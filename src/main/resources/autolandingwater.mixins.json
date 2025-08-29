@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.ma_wuyan.autolandingwater.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
